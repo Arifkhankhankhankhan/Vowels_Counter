@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, red 20%, yellow 40%, green 60%, blue 80%);
+
+   
+}
+#vowels {
+    border: 2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.6s;
+    
+}
+
+#vowels::placeholder{ 
+ margin: 10px;
+}
+
+
+.input{
+    text-align: center;
+    margin: 10px;
+}
+
+input{
+    padding: 10px ;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    
+}
